@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <title>WDD330</title>
+      <meta charset="utf-8" />
+      <meta name="viewport" content="width=device-width, initial-scale=1" />
+      <meta name="description" content="This website allows you to create, delate, edit and mark tasks." />
+      <link rel="stylesheet" href="index.css" />
+   </head>
+   <body>
+   	<main class="app">
+   		</section>
+   		<section class="create-todo">
+   			<h1>TO DO LIST</h1>
+   			<form id="new-todo-form">
+   				<input 
+   					type="text" 
+   					placeholder="e.g. Get some milk"
+   					name="content"
+   					id="content" />
+   				<input type="submit" value="Add task to the list" />
+   			</form>
+   		</section>
+   		<section class="todo-list">
+   			<h2>TODO LIST</h2>
+   			<div class="list" id="todo-list"></div>
+   		</section>
+   	</main>
+      <footer>
+         <p id="copyright">&copy;<span id="year"></span> | Miguel Marin</p>
+      </footer>
+      <script src="javascript.js"></script>
+   	<script src="todos.js"></script>
+   </body>
+</html>
